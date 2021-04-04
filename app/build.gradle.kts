@@ -1,9 +1,9 @@
 import dependencies.*
 plugins {
     id ("com.android.application")
-    id ("kotlin-android")
+    kotlin ("android")
     id ("androidx.navigation.safeargs.kotlin")
-    id ("kotlin-kapt")
+    kotlin ("kapt")
     id ("dagger.hilt.android.plugin")
     id ("kotlin-parcelize")
 }
